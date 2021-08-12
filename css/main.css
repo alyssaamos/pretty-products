@@ -11,11 +11,11 @@
 */
 
 html {
+  box-sizing: border-box;
   font-family: Karma, serif;
   font-family: Oswald, sans-serif;
   font-size: 1.4rem;
   line-height: 1.5;
-  box-sizing: border-box;
 }
 
 *, *::before, *::after {
@@ -56,15 +56,14 @@ li {
 
 h2 {
   margin-top: 1rem;
+  margin-bottom: 0;
   color: #6f00e7;
-  font-size: 2rem;
-  text-align: center;
   font-weight: bold;
 }
 
 h3 {
   background-color: #6f00e7;
-  color: white;
+  color: #fff;
   border-radius: 3em;
   font-size: .75rem;
   margin-bottom: 0;
