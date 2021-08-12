@@ -12,10 +12,14 @@
 
 html {
   font-family: Karma, serif;
+  font-family: Oswald, sans-serif;
   font-size: 1.4rem;
   line-height: 1.5;
   box-sizing: border-box;
-  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -25,9 +29,6 @@ body {
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
-}
-
 img {
   width: 70%;
 }
@@ -46,7 +47,6 @@ li {
   justify-content: flex-start;
   display: flex;
   flex-direction: column;
-  list-style: none;
   border-width: 3px;
   border-color: #987ffa;
   border-style: solid;
@@ -56,7 +56,6 @@ li {
 }
 
 h2 {
-  font-family: Oswald, sans-serif;
   margin-top: 1rem;
   color: #6f00e7;
   font-size: 2rem;
@@ -65,28 +64,23 @@ h2 {
 }
 
 h3 {
-  margin-bottom: 0;
   background-color: #6f00e7;
   color: white;
   border-radius: 3em;
   font-size: .75rem;
+  margin-bottom: 0;
   padding: .5em 1rem;
   text-align: right;
 }
 
 p {
+  font-family: Karma, serif;
+  text-align: center;
   margin: 0 .5rem;
   margin-bottom: .25rem;
-  font-family: Karma, serif;
-  font-size: 1.4rem;
-  text-align: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: .1em;
-  padding-bottom: .5em;
 }
 
-.icons {
+.symbols {
   align-items: stretch;
   display: grid;
   grid-template-columns: 6.5rem 4rem 1.5rem 1.5rem;
